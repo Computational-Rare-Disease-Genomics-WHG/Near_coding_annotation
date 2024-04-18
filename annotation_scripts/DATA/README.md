@@ -10,10 +10,10 @@ PolyA motifs within 30bp upstream of the primary polyA cleavage site <br />
 ### Human IRES info <br />
 IRES locations from IRES base (Zhao et al 2020) <br />
 <br />
-### miRNA data - hglift_genome_146f2 file <br />
+### miRNA data <br />
 Micro RNA binding sites obtained from Plotnikova et al 2019; Nowakowski et al 2018; Spengler et al 2016; Bodreau et al 2014 <br />
 <br />
-### TFBS <br />
+### TFBS locations <br />
 Transcription factor binding site locations from Vierstra et al 2020. This then needs to be passed to the FABIAN tool (steinhaus et al 2022), as per manuscript methods. <br />
 <br />
 <br />

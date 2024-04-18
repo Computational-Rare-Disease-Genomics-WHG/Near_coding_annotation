@@ -1,4 +1,4 @@
-# Data folder # <br />
+# Data folder <br />
 <br /> 
 This folder contains additional data needed in the annotation of near coding variants. The generation of all data is described in the 'methods' section of the manuscript. <br />
 <br />

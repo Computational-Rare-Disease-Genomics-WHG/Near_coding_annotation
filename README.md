@@ -1,5 +1,5 @@
 # Near_coding_annotation
-This is a repository of peripheral scripts, documents and data associated with the manuscript "Systematic identification of disease-causing promoter and untranslated region variants in 8,040 undiagnosed individuals with rare disease".
+This is a repository of scripts, documents and data associated with the manuscript "Systematic identification of disease-causing promoter and untranslated region variants in 8,040 undiagnosed individuals with rare disease".
 <br />
 ## The 'green_dominant_regions.tsv' file : 
 .tsv file containing the coordinates of near-coding regions in MANE transcripts for "Green" + "Dominant" PanelApp genes (GRCh38) <br />

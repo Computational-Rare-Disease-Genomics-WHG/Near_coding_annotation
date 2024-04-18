@@ -51,6 +51,7 @@ This script takes all annotated output, and combines it to prioritise all varian
 ## DATA Folder <br />
 This folder contains additional data generated 'in house' that is required alongside the above annotation scripts.<br />
 <br />
+<br />
 ### Additional data required:
 In addition to the data contained within the 'DATA' sub-folder, data from Chothani et al 2022 "A high-resolution map of human RNA translation", and Findlay et al 2022 "Quantifying negative selection in human 3’ UTRs uncovers constrained targets of RNA-binding proteins", as detiled in the manuscript, is required. 
 

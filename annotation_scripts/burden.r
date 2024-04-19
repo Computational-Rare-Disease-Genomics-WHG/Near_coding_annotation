@@ -7,6 +7,10 @@ library(UpSetR)
 library(grid)
 library(Rlabkey)
 
+#Total variant counts for case and control must be entered here
+full_case<-
+full_cont<- 
+
 #Get Variants
 vep_variants<-read.table("VEP_merged_variants.tsv" , sep = '\t', header = TRUE, na.strings=c("","NA"), stringsAsFactors = FALSE)[,c(1,8,7,9,22)]
 vep_variants<-unique(vep_variants)
@@ -95,7 +99,7 @@ all_variants2 %>% count(STATUS)
 rnames<-c("No_variant","Has_variant")
 cnames<-c("Case","Control")
 
-mat1.data<-c((12422-nrow(as.data.frame(subset(unique_variants, STATUS=="case")))),(9780-nrow(as.data.frame(subset(unique_variants, STATUS=="control")))),nrow(as.data.frame(subset(unique_variants, STATUS=="case"))),nrow(as.data.frame(subset(unique_variants, STATUS=="control")))) #
+mat1.data<-c((full_case-nrow(as.data.frame(subset(unique_variants, STATUS=="case")))),(full_cont-nrow(as.data.frame(subset(unique_variants, STATUS=="control")))),nrow(as.data.frame(subset(unique_variants, STATUS=="case"))),nrow(as.data.frame(subset(unique_variants, STATUS=="control")))) #
 mat1 <- matrix(mat1.data,nrow=2,ncol=2,byrow=TRUE,dimnames=list(rnames,cnames))
 mat1
 fisher.test(mat1)
